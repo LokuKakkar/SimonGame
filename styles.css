@@ -81,7 +81,7 @@ body {
   transform: scale(1.05) rotate(-1deg);
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   #restart-btn{
     visibility: visible;
   }
