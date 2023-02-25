@@ -19,6 +19,11 @@ $(document).keypress(function(){
 
 })
 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    // some code.. 
+    $("h1").text("lmaoooo");
+    }
+
 
 
 function nextSequence(){
