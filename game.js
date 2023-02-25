@@ -19,10 +19,19 @@ $(document).keypress(function(){
 
 })
 
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    // some code.. 
-    $("h1").text("lmaoooo");
-    }
+$("#restart-btn").click(function(){
+    timesKeyPressed=1;
+    level=0;
+    userClickedPattern=[];
+    gamePattern=[];
+    timesKeyPressed=0;
+    nextSequence();
+})
+
+
+
+
+
 
 
 
